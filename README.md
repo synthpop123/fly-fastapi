@@ -18,6 +18,12 @@ uv venv
 source .venv/bin/activate
 uv pip install -r requirements.txt
 uv pip install -r requirements-dev.txt
+
+# Install pre-commit
+pre-commit install
+
+# Test pre-commit function
+pre-commit run --all-files
 ```
 
 ## Run locally
