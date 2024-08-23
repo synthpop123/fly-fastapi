@@ -47,3 +47,9 @@ fly launch
 # Deploy on fly.io
 fly deploy
 ```
+
+## GitHub Actions
+
+Create a repository secret `FLY_API_TOKEN`, the value should be the deploy token generated from the fly.io dashboard.
+
+Once `git push` is triggered, GitHub Actions will automatically run `fly deploy`.
