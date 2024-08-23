@@ -1,7 +1,9 @@
 # FastAPI on Fly.io
 
+![FastAPI Badge](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=fff&style=flat) ![Swagger Badge](https://img.shields.io/badge/Swagger-85EA2D?logo=swagger&logoColor=000&style=flat) ![Ruff Badge](https://img.shields.io/badge/Ruff-D7FF64?logo=ruff&logoColor=000&style=flat) ![pre-commit Badge](https://img.shields.io/badge/pre--commit-FAB040?logo=precommit&logoColor=fff&style=flat) ![GitHub Actions Badge](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=fff&style=flat)
+
 - API Endpoint: [https://api.lkwplus.com](https://api.lkwplus.com)
-- Swagger-UI: [https://api.lkwplus.com/docs](https://api.lkwplus.com/docs)
+- Swagger UI: [https://api.lkwplus.com/docs](https://api.lkwplus.com/docs)
 - Redoc: [https://api.lkwplus.com/redoc](https://api.lkwplus.com/redoc)
 
 ## Clone GitHub repo
