@@ -22,6 +22,11 @@ async def read_root(request: Request):
     }
 
 
+@router.head("/", include_in_schema=False)
+async def index():
+    return {"message": "Hello, World!"}
+
+
 @router.get(
     "/health",
     summary="Perform a Health Check",
