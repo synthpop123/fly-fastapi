@@ -1,5 +1,9 @@
 # FastAPI on Fly.io
 
+- API Endpoint: [https://api.lkwplus.com](https://api.lkwplus.com)
+- Swagger-UI: [https://api.lkwplus.com/docs](https://api.lkwplus.com/docs)
+- Redoc: [https://api.lkwplus.com/redoc](https://api.lkwplus.com/redoc)
+
 ## Clone GitHub repo
 
 ```sh
@@ -13,6 +17,7 @@ cd fly-fastapi
 uv venv
 source .venv/bin/activate
 uv pip install -r requirements.txt
+uv pip install -r requirements-dev.txt
 ```
 
 ## Run locally
