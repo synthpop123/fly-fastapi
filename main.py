@@ -4,10 +4,10 @@ __author__ = "lkw123"
 
 from fastapi import FastAPI
 
-from routes.root import router as root_router
+from routers.root import router as root_router
 
 
-def create_app():
+def create_app() -> FastAPI:
     app = FastAPI(
         title="FastAPI",
         description="FastAPI on Fly.io",
@@ -23,3 +23,6 @@ def create_app():
     # TODO: include other routers here
 
     return app
+
+
+app = create_app()
