@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 __author__ = "lkw123"
 
-from fastapi import APIRouter, Request, status
+from fastapi import APIRouter, status
 from pydantic import BaseModel
 
 router = APIRouter()
@@ -15,11 +15,8 @@ class HealthCheck(BaseModel):
 
 
 @router.get("/", summary="Hello, World!")
-async def read_root(request: Request):
-    return {
-        "message": "Hello, World!",
-        "root_path": request.scope.get("root_path"),
-    }
+async def read_index():
+    return {"message": "Hello, World!"}
 
 
 @router.head("/", include_in_schema=False)
