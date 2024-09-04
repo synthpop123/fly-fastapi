@@ -3,15 +3,10 @@
 __author__ = "lkw123"
 
 from fastapi import APIRouter, status
-from pydantic import BaseModel
+
+from models.root import HealthCheck
 
 router = APIRouter()
-
-
-class HealthCheck(BaseModel):
-    """Response model to validate and return when performing a health check."""
-
-    status: str = "OK"
 
 
 @router.get("/", summary="Hello, World!")
